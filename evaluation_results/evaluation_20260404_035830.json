@@ -1,0 +1,118 @@
+{
+  "run_at": "2026-04-04T02:58:30.176202+00:00",
+  "total_cases": 7,
+  "answer_pass_rate": 1.0,
+  "source_pass_rate": 1.0,
+  "cases": [
+    {
+      "id": "positive_1_async_measure_impact",
+      "question": "According to the GitLab handbook, what does working asynchronously allow GitLab to measure instead of activity?",
+      "should_answer": true,
+      "passed_answer_check": true,
+      "passed_source_check": true,
+      "expected_sources": [
+        "company_culture_all-remote_asynchronous.md"
+      ],
+      "actual_sources": [
+        "company_culture_all-remote_asynchronous.md"
+      ],
+      "model_answer": "According to the GitLab handbook, working asynchronously allows GitLab to measure impact instead of activity.\n\nSources:\n- company_culture_all-remote_asynchronous.md (offset 1299)\n- company_culture_all-remote_asynchronous.md (offset 16192)\n- company_culture_all-remote_asynchronous.md (offset 15508)\n- company_culture_all-remote_asynchronous.md (offset 44125)\n- company_culture_all-remote_asynchronous.md (offset 11709)"
+    },
+    {
+      "id": "positive_2_slack_dnd",
+      "question": "What does the handbook say team members should do in Slack to stay aligned with GitLab's asynchronous mindset?",
+      "should_answer": true,
+      "passed_answer_check": true,
+      "passed_source_check": true,
+      "expected_sources": [
+        "communication_chat.md"
+      ],
+      "actual_sources": [
+        "communication_chat.md",
+        "company_culture_all-remote_asynchronous.md",
+        "company_culture_all-remote_being-a-great-remote-manager.md"
+      ],
+      "model_answer": "To stay aligned with GitLab's asynchronous mindset, team members should:\n*   Set \"do not disturb\" in Slack.\n*   Not expect real-time answers from others all the time.\n*   Change their Slack status when communicating asynchronous work days (e.g., when working outside normal hours).\n*   Consider removing Slack from their phone to create a clearer division between work and life.\n\nSources:\n- company_culture_all-remote_being-a-great-remote-manager.md (offset 7990)\n- communication_chat.md (offset 0)\n- company_culture_all-remote_being-a-great-remote-manager.md (offset 8345)\n- company_culture_all-remote_asynchronous.md (offset 27636)\n- company_culture_all-remote_asynchronous.md (offset 61572)"
+    },
+    {
+      "id": "positive_3_handbook_first",
+      "question": "What is meant by GitLab's handbook-first approach when communicating a process change?",
+      "should_answer": true,
+      "passed_answer_check": true,
+      "passed_source_check": true,
+      "expected_sources": [
+        "about_handbook-usage.md"
+      ],
+      "actual_sources": [
+        "about_direction.md",
+        "about_handbook-usage.md",
+        "company_culture_all-remote_asynchronous.md"
+      ],
+      "model_answer": "GitLab's handbook-first approach for communicating a process change means that when a process problem arises, a proposal is made in a merge request to the handbook. To change a guideline or process, an edit should be suggested in the form of a merge request. Once the change is merged, it is announced by linking to the diff in the merge request or commit. This approach is encouraged to promote asynchronous collaboration and documentation.\n\nSources:\n- about_handbook-usage.md (offset 2970)\n- about_handbook-usage.md (offset 0)\n- about_direction.md (offset 2124)\n- about_handbook-usage.md (offset 10828)\n- company_culture_all-remote_asynchronous.md (offset 11709)"
+    },
+    {
+      "id": "positive_4_confidentiality_default",
+      "question": "What is GitLab's default stance on sharing information according to the confidentiality levels page?",
+      "should_answer": true,
+      "passed_answer_check": true,
+      "passed_source_check": true,
+      "expected_sources": [
+        "communication_confidentiality-levels.md"
+      ],
+      "actual_sources": [
+        "about_handbook-usage.md",
+        "communication_confidentiality-levels.md"
+      ],
+      "model_answer": "According to the confidentiality levels page, GitLab's default stance on sharing information is \"public by default\" [Source 1].\n\nSources:\n- communication_confidentiality-levels.md (offset 0)\n- about_handbook-usage.md (offset 29771)\n- communication_confidentiality-levels.md (offset 556)\n- communication_confidentiality-levels.md (offset 1993)\n- communication_confidentiality-levels.md (offset 5931)"
+    },
+    {
+      "id": "positive_5_remote_manager_1on1",
+      "question": "What does the remote manager guide recommend using to discuss business topics, challenges, and focus areas in order to build trust?",
+      "should_answer": true,
+      "passed_answer_check": true,
+      "passed_source_check": true,
+      "expected_sources": [
+        "company_culture_all-remote_being-a-great-remote-manager.md"
+      ],
+      "actual_sources": [
+        "company_culture_all-remote_being-a-great-remote-manager.md",
+        "company_culture_all-remote_drawbacks.md"
+      ],
+      "model_answer": "The remote manager guide recommends using weekly 1-1 meetings to discuss business topics, challenges, and focus areas in order to build trust.\n\nSources:\n- company_culture_all-remote_being-a-great-remote-manager.md (offset 6821)\n- company_culture_all-remote_being-a-great-remote-manager.md (offset 2557)\n- company_culture_all-remote_drawbacks.md (offset 15318)\n- company_culture_all-remote_being-a-great-remote-manager.md (offset 0)\n- company_culture_all-remote_being-a-great-remote-manager.md (offset 6072)"
+    },
+    {
+      "id": "positive_6_official_announcements_channel",
+      "question": "Which Slack channel does the handbook list for official company announcements?",
+      "should_answer": true,
+      "passed_answer_check": true,
+      "passed_source_check": true,
+      "expected_sources": [
+        "communication_chat.md"
+      ],
+      "actual_sources": [
+        "acquisitions_acquisition-process_acquisition-process-communications.md",
+        "communication_chat.md",
+        "communication_confidentiality-levels.md",
+        "company_culture_all-remote_asynchronous.md",
+        "company_culture_all-remote_getting-started.md"
+      ],
+      "model_answer": "The handbook lists the `#company-fyi` Slack channel for internal Slack messages related to company announcements, such as during an acquisition announcement process.\n\nSources:\n- company_culture_all-remote_getting-started.md (offset 13477)\n- company_culture_all-remote_asynchronous.md (offset 26314)\n- communication_chat.md (offset 571)\n- communication_confidentiality-levels.md (offset 2673)\n- acquisitions_acquisition-process_acquisition-process-communications.md (offset 3638)"
+    },
+    {
+      "id": "negative_1_missing_policy",
+      "question": "What is GitLab's office parking reimbursement policy for 2026?",
+      "should_answer": false,
+      "passed_answer_check": true,
+      "passed_source_check": true,
+      "expected_sources": [],
+      "actual_sources": [
+        "about_handbook-usage.md",
+        "business-technology_entapps-documentation_policies_gitlab-business-continuity-plan.md",
+        "ceo_shadow.md",
+        "company_being-a-public-company.md",
+        "company_culture_all-remote_drawbacks.md"
+      ],
+      "model_answer": "I cannot find the answer in the knowledge base.\n\nSources:\n- business-technology_entapps-documentation_policies_gitlab-business-continuity-plan.md (offset 1382)\n- company_culture_all-remote_drawbacks.md (offset 9913)\n- ceo_shadow.md (offset 17893)\n- company_being-a-public-company.md (offset 4499)\n- about_handbook-usage.md (offset 5275)"
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+[
+  {
+    "id": "positive_1_async_measure_impact",
+    "question": "According to the GitLab handbook, what does working asynchronously allow GitLab to measure instead of activity?",
+    "should_answer": true,
+    "expected_answer_contains": [
+      "measure impact"
+    ],
+    "expected_sources": [
+      "company_culture_all-remote_asynchronous.md"
+    ]
+  },
+  {
+    "id": "positive_2_slack_dnd",
+    "question": "What does the handbook say team members should do in Slack to stay aligned with GitLab's asynchronous mindset?",
+    "should_answer": true,
+    "expected_answer_contains": [
+      "do not disturb",
+      "not expect real-time answers"
+    ],
+    "expected_sources": [
+      "communication_chat.md"
+    ]
+  },
+  {
+    "id": "positive_3_handbook_first",
+    "question": "What is meant by GitLab's handbook-first approach when communicating a process change?",
+    "should_answer": true,
+    "expected_answer_contains": [
+      "merge request",
+      "handbook"
+    ],
+    "expected_sources": [
+      "about_handbook-usage.md"
+    ]
+  },
+  {
+    "id": "positive_4_confidentiality_default",
+    "question": "What is GitLab's default stance on sharing information according to the confidentiality levels page?",
+    "should_answer": true,
+    "expected_answer_contains": [
+      "public by default"
+    ],
+    "expected_sources": [
+      "communication_confidentiality-levels.md"
+    ]
+  },
+  {
+    "id": "positive_5_remote_manager_1on1",
+    "question": "What does the remote manager guide recommend using to discuss business topics, challenges, and focus areas in order to build trust?",
+    "should_answer": true,
+    "expected_answer_contains": [
+      "1-1 meetings"
+    ],
+    "expected_sources": [
+      "company_culture_all-remote_being-a-great-remote-manager.md"
+    ]
+  },
+  {
+    "id": "positive_6_official_announcements_channel",
+    "question": "Which Slack channel does the handbook list for official company announcements?",
+    "should_answer": true,
+    "expected_answer_contains": [
+      "#company-fyi"
+    ],
+    "expected_sources": [
+      "communication_chat.md"
+    ]
+  },
+  {
+    "id": "negative_1_missing_policy",
+    "question": "What is GitLab's office parking reimbursement policy for 2026?",
+    "should_answer": false,
+    "expected_answer_contains": [],
+    "expected_sources": []
+  }
+]

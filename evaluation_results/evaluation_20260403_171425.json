@@ -1,0 +1,113 @@
+{
+  "run_at": "2026-04-03T16:14:25.167663+00:00",
+  "total_cases": 7,
+  "answer_pass_rate": 0.0,
+  "source_pass_rate": 0.8571428571428571,
+  "cases": [
+    {
+      "id": "positive_1_async_measure_impact",
+      "question": "According to the GitLab handbook, what does working asynchronously allow GitLab to measure instead of activity?",
+      "should_answer": true,
+      "passed_answer_check": false,
+      "passed_source_check": true,
+      "expected_sources": [
+        "company_culture_all-remote_asynchronous.md"
+      ],
+      "actual_sources": [
+        "company_culture_all-remote_asynchronous.md"
+      ],
+      "model_answer": "The retrieval step succeeded, but the language model call failed. Error: litellm.NotFoundError: VertexAIException - {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.\",\n    \"status\": \"NOT_FOUND\"\n  }\n}\n\n\nSources:\n- company_culture_all-remote_asynchronous.md (offset 16192)\n- company_culture_all-remote_asynchronous.md (offset 45492)\n- company_culture_all-remote_asynchronous.md (offset 51383)\n- company_culture_all-remote_asynchronous.md (offset 44820)\n- company_culture_all-remote_asynchronous.md (offset 15508)"
+    },
+    {
+      "id": "positive_2_slack_dnd",
+      "question": "What does the handbook say team members should do in Slack to stay aligned with GitLab's asynchronous mindset?",
+      "should_answer": true,
+      "passed_answer_check": false,
+      "passed_source_check": false,
+      "expected_sources": [
+        "communication_chat.md"
+      ],
+      "actual_sources": [
+        "about_escalation.md",
+        "company_culture_all-remote_asynchronous.md",
+        "company_culture_all-remote_being-a-great-remote-manager.md"
+      ],
+      "model_answer": "The retrieval step succeeded, but the language model call failed. Error: litellm.NotFoundError: VertexAIException - {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.\",\n    \"status\": \"NOT_FOUND\"\n  }\n}\n\n\nSources:\n- company_culture_all-remote_being-a-great-remote-manager.md (offset 7990)\n- company_culture_all-remote_asynchronous.md (offset 29594)\n- company_culture_all-remote_asynchronous.md (offset 61572)\n- company_culture_all-remote_asynchronous.md (offset 58853)\n- about_escalation.md (offset 1430)"
+    },
+    {
+      "id": "positive_3_handbook_first",
+      "question": "What is meant by GitLab's handbook-first approach when communicating a process change?",
+      "should_answer": true,
+      "passed_answer_check": false,
+      "passed_source_check": true,
+      "expected_sources": [
+        "about_handbook-usage.md"
+      ],
+      "actual_sources": [
+        "about_direction.md",
+        "about_handbook-usage.md"
+      ],
+      "model_answer": "The retrieval step succeeded, but the language model call failed. Error: litellm.NotFoundError: VertexAIException - {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.\",\n    \"status\": \"NOT_FOUND\"\n  }\n}\n\n\nSources:\n- about_handbook-usage.md (offset 5275)\n- about_handbook-usage.md (offset 2970)\n- about_handbook-usage.md (offset 0)\n- about_direction.md (offset 0)\n- about_direction.md (offset 2124)"
+    },
+    {
+      "id": "positive_4_confidentiality_default",
+      "question": "What is GitLab's default stance on sharing information according to the confidentiality levels page?",
+      "should_answer": true,
+      "passed_answer_check": false,
+      "passed_source_check": true,
+      "expected_sources": [
+        "communication_confidentiality-levels.md"
+      ],
+      "actual_sources": [
+        "about_handbook-usage.md",
+        "about_maintenance.md",
+        "communication_confidentiality-levels.md"
+      ],
+      "model_answer": "The retrieval step succeeded, but the language model call failed. Error: litellm.NotFoundError: VertexAIException - {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.\",\n    \"status\": \"NOT_FOUND\"\n  }\n}\n\n\nSources:\n- communication_confidentiality-levels.md (offset 0)\n- about_handbook-usage.md (offset 29771)\n- communication_confidentiality-levels.md (offset 556)\n- communication_confidentiality-levels.md (offset 3301)\n- about_maintenance.md (offset 1990)"
+    },
+    {
+      "id": "positive_5_remote_manager_1on1",
+      "question": "What does the remote manager guide recommend using to discuss business topics, challenges, and focus areas in order to build trust?",
+      "should_answer": true,
+      "passed_answer_check": false,
+      "passed_source_check": true,
+      "expected_sources": [
+        "company_culture_all-remote_being-a-great-remote-manager.md"
+      ],
+      "actual_sources": [
+        "company_culture_all-remote_being-a-great-remote-manager.md",
+        "company_culture_all-remote_getting-started.md"
+      ],
+      "model_answer": "The retrieval step succeeded, but the language model call failed. Error: litellm.NotFoundError: VertexAIException - {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.\",\n    \"status\": \"NOT_FOUND\"\n  }\n}\n\n\nSources:\n- company_culture_all-remote_being-a-great-remote-manager.md (offset 7360)\n- company_culture_all-remote_being-a-great-remote-manager.md (offset 5379)\n- company_culture_all-remote_getting-started.md (offset 24517)\n- company_culture_all-remote_being-a-great-remote-manager.md (offset 6821)\n- company_culture_all-remote_being-a-great-remote-manager.md (offset 6072)"
+    },
+    {
+      "id": "positive_6_official_announcements_channel",
+      "question": "Which Slack channel does the handbook list for official company announcements?",
+      "should_answer": true,
+      "passed_answer_check": false,
+      "passed_source_check": true,
+      "expected_sources": [
+        "communication_chat.md"
+      ],
+      "actual_sources": [
+        "acquisitions_acquisition-process_acquisition-process-communications.md",
+        "communication_chat.md",
+        "communication_confidentiality-levels.md"
+      ],
+      "model_answer": "The retrieval step succeeded, but the language model call failed. Error: litellm.NotFoundError: VertexAIException - {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.\",\n    \"status\": \"NOT_FOUND\"\n  }\n}\n\n\nSources:\n- communication_chat.md (offset 571)\n- communication_confidentiality-levels.md (offset 2673)\n- acquisitions_acquisition-process_acquisition-process-communications.md (offset 3638)\n- acquisitions_acquisition-process_acquisition-process-communications.md (offset 0)\n- communication_chat.md (offset 6792)"
+    },
+    {
+      "id": "negative_1_missing_policy",
+      "question": "What is GitLab's office parking reimbursement policy for 2026?",
+      "should_answer": false,
+      "passed_answer_check": false,
+      "passed_source_check": true,
+      "expected_sources": [],
+      "actual_sources": [
+        "business-technology_entapps-documentation_policies_gitlab-business-continuity-plan.md",
+        "communication_confidentiality-levels.md"
+      ],
+      "model_answer": "The retrieval step succeeded, but the language model call failed. Error: litellm.NotFoundError: VertexAIException - {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.\",\n    \"status\": \"NOT_FOUND\"\n  }\n}\n\n\nSources:\n- communication_confidentiality-levels.md (offset 6582)\n- business-technology_entapps-documentation_policies_gitlab-business-continuity-plan.md (offset 0)\n- business-technology_entapps-documentation_policies_gitlab-business-continuity-plan.md (offset 5872)\n- business-technology_entapps-documentation_policies_gitlab-business-continuity-plan.md (offset 308)\n- business-technology_entapps-documentation_policies_gitlab-business-continuity-plan.md (offset 1382)"
+    }
+  ]
+}
