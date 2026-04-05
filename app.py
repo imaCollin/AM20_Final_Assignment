@@ -6,6 +6,7 @@ from src.rag_chatbot.chatbot import build_app
 
 
 _original_get_type = gradio_client_utils.get_type
+_original_json_schema_to_python_type = gradio_client_utils._json_schema_to_python_type
 
 
 def _safe_get_type(schema):
@@ -16,7 +17,14 @@ def _safe_get_type(schema):
     return _original_get_type(schema)
 
 
+def _safe_json_schema_to_python_type(schema, defs):
+    if isinstance(schema, bool):
+        return "Any"
+    return _original_json_schema_to_python_type(schema, defs)
+
+
 gradio_client_utils.get_type = _safe_get_type
+gradio_client_utils._json_schema_to_python_type = _safe_json_schema_to_python_type
 
 
 demo = build_app()
